@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego de Personal Social</title>
+        <meta name="Description" content="Juego de Personal Social">
+        <meta name="Author" content="Emilio">
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background: indigo;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            div{
+                background: lightgray;
+                border-radius: 10px;
+                width: 500px;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 30px;
+            }
+            #TitleID{
+                color: darkslategrey;
+            }
+            #cecece{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 id="TitleID">Juego de Personal Social</h1>
+            <p>¿Deseas jugar? ¡Adelante!</p>
+        </div>
+        <div>
+            <h2>1. Verdadero o Falso</h2>
+            <p>Lee el enunciado y marca V(verdadero) o F(falso)</p>
+        </div>
+        <div>
+            <p>1. La "dirección" en el DNI indica como se llaman los padres</p>
+            <button type="button" onclick="mensaje('Oh no. Vuelve a intentarlo')" value="boton">V</button>
+            <button type="button" onclick="mensaje('Excelente. Sigue')" value="boton">F</button>
+        </div>
+        <div>
+            <p>2. DNI significa "documento nacional de identidad"</p>
+            <button type="button" onclick="mensaje('Excelente. Sigue')" value="boton">V</button>
+            <button type="button" onclick="mensaje('Oh no. Vuelve a intentarlo')" value="boton">F</button>
+        </div>
+        <div>
+            <p>El DNI de niños es de color amarillo</p>
+            <button type="button" onclick="mensaje('Excelente. Sigue')" value="boton">V</button>
+            <button type="button" onclick="mensaje('Oh no. Vuelve a intentarlo')" value="boton">F</button>
+        </div>
+        <div>
+            <script>
+              function mensaje(texto){
+                alert(texto);
+             }
+             </script>
+             <a href="ps.html">Volver al menu de Personal Social</a>
+        </div>
+        <h6 id="cecece">Copyright ©Emilio 2020</h6>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego de Matemática</title>
+        <meta name="Description" content="Juego de Matematica">
+        <meta name="Author" content="Emilio">
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background: lightpink;
+                font-family: sans-serif;
+            }
+            div{
+                background: white;
+                border-radius: 10px;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 5px;
+            }
+            h6{
+                text-align: center;
+            }
+            .cont1{
+                width: 420px;
+            }
+            .cont2{
+                width: 150px;
+            }
+            .cont3{
+                width: 270px;
+            }
+            #ID4567F{
+                color: darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cont1">
+            <h1 id="ID4567F">Juego de Matemática</h1>
+            <p>¿Listo para este juego? Veamos si puedes hacerlo</p>
+        </div>
+        <div class="cont2">
+            <h2>1. 6 + 7</h2>
+            <button type="button" onclick="mensaje('Uy, te equivocaste')" value="boton">17</button>
+            <button type="button" onclick="mensaje('Es Correcto')" value="boton">13</button>
+        </div>
+        <div class="cont2">
+            <h2>2. 8 - 5</h2>
+            <button type="button" onclick="mensaje('Es Correcto')" value="boton">3</button>
+            <button type="button" onclick="mensaje('Uy, te equivocaste')" value="boton">5</button>
+            <button type="button" onclick="mensaje('Uy, te equivocaste')" value="boton">1</button>
+        </div>
+        <div class="cont2">
+            <h2>3. 13 + 6</h2>
+            <button type="button" onclick="mensaje('Uy, te equivocaste')" value="boton">20</button>
+            <button type="button" onclick="mensaje('Es Correcto')" value="boton">19</button>
+            <button type="button" onclick="mensaje('Uy, te equivocaste')" value="boton">18</button>
+        </div>
+        <div class="cont2">
+            <h2>4. 14 - 6</h2>
+            <button type="button" onclick="mensaje('Uy, te equivocaste')" value="boton">10</button>
+            <button type="button" onclick="mensaje('Uy, te equivocaste')" value="boton">6</button>
+            <button type="button" onclick="mensaje('Es Correcto')" value="boton">8</button>
+        </div>
+        <div class="cont3"> 
+             <script>
+            function mensaje(texto){
+            alert(texto);
+        }
+            </script>
+            <a href="Math.html">Volver al menu de Matematica</a>
+        </div>
+        <h6>Copyright ©Emilio 2020</h6>
+    </body>
+</html>

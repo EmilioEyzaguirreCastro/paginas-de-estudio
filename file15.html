@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego de Comunicación</title>
+        <meta name="Author" content="Emilio">
+        <meta name="Descripcion" content="Juego de Comunicación">
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background: olive;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            h6{
+                text-align: center;
+            }
+            div{
+                background: white;
+                border-radius: 10px;
+                text-align: center;
+                width: 400px;
+                margin: 0 auto;
+                margin-top: 7px;
+            }
+            h1{
+                color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+    <div>
+        <h1>Juego de Comunicación</h1>
+        <p>Mira este juego</p>
+    </div>
+    <div>
+        <h2>1. Escucha y marca palabras</h2>
+        <p>Deberas escuchar el audio. Nombre: audio1. Luego marca la palabra escuchada</p>
+    </div>
+    <div>
+         <h3>Numero 1</h3>
+        <button type="button" onclick="mensaje('Correcto. Muy bien')" value="boton">Ratón</button>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Avión</button>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Carro</button>
+    </div>
+    <div>
+        <h3>Numero 2</h3>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Jugo</button>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Pez</button>
+        <button type="button" onclick="mensaje('Correcto. Muy bien')" value="boton">Teléfono</button>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Maquina</button>
+    </div>
+    <div>
+        <h2>2. ¿Como se escribe?</h2>
+        <h3>Numero 1</h3>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Pperro</button>
+        <button type="button" onclick="mensaje('Correcto. Muy bien')" value="boton">Perro</button>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Prro</button>
+    </div>
+    <div>
+        <h3>Numero 2</h3>
+        <button type="button" onclick="mensaje('Correcto. Muy bien')" value="boton">Montaña</button>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Montana</button>
+        <button type="button" onclick="mensaje('Incorrecto. Intentalo de nuevo')" value="boton">Monaña</button>
+    </div>
+    <div>
+        <script>
+        function mensaje(texto){
+            alert(texto);
+        }
+        </script>
+        <a href="Com.html">Volver al menu de Comunicación</a>
+    </div>
+        <h6>Copyright ©Emilio 2020</h6>
+    </body>
+</html>

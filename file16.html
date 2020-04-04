@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Juego de Ciencia</title>
+        <meta name="Author" content="Emilio">
+        <meta name="Descripcion" content="Juego de Ciencia">
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background: red;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            div{
+                background: lightyellow;
+                border-radius: 10px;
+                width: 400px;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 30px;
+            }
+            h1{
+                color: darkgoldenrod;
+            }
+            .contenedorgrande{
+                width: 500px;
+            }
+            .contenedorchico{
+                width: 300px;
+            }
+            #hashtack{
+                color: darkblue;
+            }
+            #percent{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenedorchico">
+            <h1>Juego de Ciencia</h1>
+            <p>¿Listo para jugar?</p>
+        </div>
+        <div class="contenedorchico">
+            <h2 id="hashtack">1. Completa los enunciados</h2>
+        </div>
+        <div class="contenedorgrande">
+            <p>Los huesos son ____ y rigidos.</p>
+            <button type="button" onclick="mensaje('Algo anda mal. Intentalo de nuevo')" value="boton">gelatinosos</button>
+            <button type="button" onclick="mensaje('Algo anda mal. Intentalo de nuevo')" value="boton">pequeños</button>
+            <button type="button" onclick="mensaje('Perfecto')" value="boton">duros</button>
+        </div>
+        <div class="contenedorgrande">
+            <p>Los alimentos mesclados con la saliva forman el____.</p>
+            <button type="button" onclick="mensaje('Perfecto')" value="boton">bolo alimenticio</button>
+            <button type="button" onclick="mensaje('Algo anda mal')" value="boton">nutriente</button>
+            <button type="button" onclick="mensaje('Algo anda mal')" value="boton">intestino grueso</button>
+        </div>
+        <div class="contenedorgrande"><p>Las personas que tienen mas huesos son los_____.</p>
+            <button type="button" onclick="mensaje('Perfecto')" value="boton">bebes</button>
+            <button type="button" onclick="mensaje('Algo anda mal')" value="boton">adultos</button>
+            <button type="button" onclick="mensaje('Algo anda mal')" value="boton">autos</button>
+        </div>
+        <div class="contenedorchico">  
+             <script>
+            function mensaje(texto){
+                alert(texto);
+            }
+            </script>
+            <a href="ct.html"> Volver al menu de Ciencia</a>
+        </div>                                             
+        <h6 id="percent">Copyright ©Emilio 2020</h6>
+    </body>
+</html>
