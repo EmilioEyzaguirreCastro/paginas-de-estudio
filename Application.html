@@ -44,7 +44,7 @@
     <body>
         <div class="contenedorL"> 
             <h1 id="XT591RE">XL Pages</h1>
-            <p>Hola. Mira estos juegos que hemos preparado para ti:)</p>
+            <p>Hola. Mira estos juegos que hemos preparado:)</p>
 
         </div>
         <div class="contenedorS">
@@ -63,6 +63,13 @@
             <form action="mailto:eaeyzaguirrec@gmail.com">
                 <p>¿Que tal te fue con XLpages?</p>
                 <input type="text" placeholder="Comenta" width="100px" height="50px">
+                <input type="email" placeholder="Tu email">
+                <button type="button" onclick="mensaje('Enviado. Gracias por usar XLpages')" value="boton">Enviar</button>
+                <script>
+                    function mensaje(texto){
+                        alert(texto);
+                    }
+                </script>
             </form>
         </div>
         <h6>Copyright ©Emilio 2020</h6>
